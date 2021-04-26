@@ -1,0 +1,41 @@
+body, html {
+  background: white;
+}
+ 
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 320px;
+  
+}
+.display {
+  width: 105%;
+  height: 60px;
+  padding: 40px 0;
+  background: gray;
+}
+
+
+input[type=button] {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  box-sizing: border-box;
+  background: white;
+  color: black;
+  cursor: pointer;
+  
+}
+input[type=text] {
+  width: 270px;
+  height: 60px;
+  float: left;
+  color: black;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0 25px;
+  
+}
